@@ -1,17 +1,23 @@
-package cc.adom.sp3.controller;
-
+package com.yuqiyu.lessontwo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-
-
+/**
+ * ========================
+ * Created with IntelliJ IDEA.
+ * User：恒宇少年
+ * Date：2017/4/3
+ * Time：16:44
+ * 码云：http://git.oschina.net/jnyqy
+ * ========================
+ */
 @Controller
-public class indexController {
-
+public class IndexController {
     /**
-     * 访问/WEB-INF/JSP/index.jsp文件
+     * 访问webapp/jsp/index.jsp文件
+     * @return
      */
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String index(){
